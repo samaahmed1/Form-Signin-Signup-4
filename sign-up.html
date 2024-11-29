@@ -13,6 +13,58 @@
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-  
+  <header>
+    <div class="container">
+     <a class="logo" href="#">Your Logo</a>
+    </div>
+  </header>
+  <main>
+    <section class="content">
+      <div class="container">
+        <div class="image">
+         <img src="assets/images/Rectangle.webp" alt="Rectangle">
+        </div>
+        <div class="form">
+            <form method="post">
+              <div class="information">
+                <h1>Sign up</h1>
+                <p>
+                  If you don't have an account register <br>
+                   You can <a href="index.html"> Login here !</a>
+                </p>
+              </div>
+              <label for="email">Email</label>
+              <div class="input-container">
+                <img src="assets/images/message.webp" alt="email icon">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required autofocus>
+              </div>
+              <label for="Username">Username</label>
+              <div class="input-container">
+                <img src="assets/images/user.webp" alt="Username icon">
+                <input type="text" name="Username" id="Username" placeholder="Enter your User name" required>
+              </div>
+              <label for="password">Password</label>
+              <div class="input-container">
+                <img src="assets/images/lock.webp" alt="password icon">
+                <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+              </div>
+              <label for="Confrim-Password">Confrim Password</label>
+              <div class="input-container">
+                <img src="assets/images/lock.webp" alt="password icon">
+                <input type="password" id="Confrim-Password" name="Confrim-Password" placeholder="Confrim Password" required>
+              </div>
+              <div class="option">
+                <div class="check">
+                <input type="checkbox" id="remember">
+                <label for="remember">Rememeber me</label>
+                </div>
+                <a href="#">Forgot password ?</a>
+              </div>
+              <input type="submit" value="Login" class="login">
+            </form>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
