@@ -42,5 +42,8 @@ header{
 header .logo{
   font-weight: 600;
   font-size: 20px;
-  color: var(--white);
+  color: var(--Violet-Red);
 }
+.content .container .image {
+  width: 50%;
+ }
