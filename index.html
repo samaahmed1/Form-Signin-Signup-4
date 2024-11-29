@@ -22,8 +22,49 @@
     <section class="content">
       <div class="container">
         <div class="image">
-          <img src="assets/images/Rectangle.webp" alt="">
+          <img src="assets/images/Rectangle.webp" alt="Rectangle">
         </div>
+        <div class="form">
+          <form method="post">
+            <div class="information">
+              <h1>Sign in</h1>
+              <p>
+                If you don't have an account register <br>
+                 You can <a href="signup.html">Register here !</a>
+              </p>
+            </div>
+            <label for="email">Email</label>
+            <div class="input-container">
+              <img src="assets/images/message.webp" alt="email icon">
+              <input type="email" name="email" id="email" placeholder="Enter your email" required autofocus>
+            </div>
+            <label for="password">Password</label>
+            <div class="input-container">
+              <img src="assets/images/lock.webp" alt="password icon">
+              <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+            </div>
+            <div class="option">
+              <div class="check">
+              <input type="checkbox" id="remember">
+              <label for="remember">Rememeber me</label>
+              </div>
+              <a href="#">Forgot password ?</a>
+            </div>
+            <input type="submit" value="Login" class="login">
+          </form>
+          <p class="continue">or continue with</p>
+          <div class="continue-with">
+            <a href="#">
+              <img src="assets/images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="#">
+              <img src="assets/images/apple.webp" alt="apple">
+            </a>
+            <a href="#">
+              <img src="assets/images/google.webp" alt="google">
+            </a>
+          </div>
+      </div>
       </div>
     </section>
   </main>

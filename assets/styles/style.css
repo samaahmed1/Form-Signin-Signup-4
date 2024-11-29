@@ -6,6 +6,7 @@
 :root{
   --white: #ffffff;
   --Violet-Red: #c10c99;
+  --black: #000;
 
 }
 body {
@@ -42,8 +43,122 @@ header{
 header .logo{
   font-weight: 600;
   font-size: 20px;
-  color: var(--Violet-Red);
+  color: var(--black);
 }
 .content .container .image {
   width: 50%;
  }
+ .content .container{
+  display: flex;
+  align-items: center;
+ }
+.content .container .form .information h1{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 22px;
+  color: var(--white);
+}
+.content .container .form .information p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+.content .container .form .information p a{
+  font-weight: 500;
+  color: var(--Violet-Red);
+}
+.content .container .form{
+  width: 50%;
+  background-color: black;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.content .container .form form{
+  width: 100%;
+  padding: 10px 60px;
+}
+.content .container .form form label{
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+.content .container .form form input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: var(--black);
+}
+.content .container .form form .input-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid var(--white);
+}
+.content .container .form form input::placeholder{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+}
+.content .container .form form .option{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .content .container .form form .option .check input{
+  width: fit-content;
+ }
+ .content .container .form form .option .check label{
+  display: inline;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--white);
+ }
+ .content .container .form form .option a{
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--white);
+ }
+ .content .container .form form .login{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: var(--white);
+  background-color: var(--Violet-Red);
+  border-radius: 32px;
+}
+.content .container .form .continue{
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+  text-align: center;
+}
+.content .container .form .continue-with {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ margin: 25px 0 5px 0;
+}
+.content .container .form .continue-with img{
+  width: 40px;
+ }
+ @media(max-width:992px){
+  .content .container{
+    display: block;
+  }
+  .content .container .image img{
+    display: none;
+  }
+  .content .container .form{
+    width: 100%;
+  }
+}
