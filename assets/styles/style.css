@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  --white: #ffffff;
+  --Violet-Red: #c10c99;
+  
+}
 body {
   font-family: "Poppins", serif;
 }
